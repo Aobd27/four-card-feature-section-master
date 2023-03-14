@@ -1,0 +1,151 @@
+
+
+.big-box{
+    display: grid;
+    place-items: center;
+    background-color: hsl(0, 0%, 98%);
+    padding: 5vh 10vw;
+}
+
+.small-box{
+    height: 30vh;
+    width: 15em;
+    background-color: white;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 2%;
+    box-shadow: 0px 5px 20px -10px hsl(234, 12%, 34%);
+
+}
+
+.cyan-box{
+    border-top: 4px solid hsl(180, 62%, 55%);
+    display: inline-block;
+
+}
+
+.red-box{
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.Orange-box{
+    border-top: 4px solid hsl(34, 97%, 64%);
+
+}
+
+.blue-box{
+    border-top: 4px solid hsl(212, 86%, 64%);
+    display: inline-block;
+
+}
+
+.two-boxs{
+    display: inline-block;
+}
+
+.title-on-box{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: hsl(234, 12%, 34%);
+
+}
+
+.p-in-box{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    font-size: 0.8rem;
+
+}
+
+.image-in-box{
+    float: right;
+}
+
+.title-big-box{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+    font-size: 1.3rem;
+}
+
+.title-big-box{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+    font-size: 1.3rem;
+    margin: 0;
+
+}
+
+.sconde-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.p-big-box{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    font-size: 0.8rem;
+    width: 20em;
+
+}
+
+
+
+
+
+@media only screen and (min-width:1024px) {
+    body{
+        display: grid;
+        place-items: center;
+    }
+    .big-box{
+        display: inline-block;
+        background-color: hsl(0, 0%, 98%);
+        padding: 5vh 5vw;
+        margin: 2em auto;
+    }
+
+    .small-box{
+        height: 29vh;
+        width: 14em;
+        margin: 1em 1em;
+
+    }
+
+    .title-big-box{
+    text-align: center;
+    
+    }
+    
+    .sconde-title{
+    text-align: center;
+
+    }
+    .p-big-box{
+    margin: auto;
+    width: 35em;
+    text-align: center;
+
+
+    }
+
+    .blue-box{
+        position: relative;
+        bottom: 7em;
+    }
+    .cyan-box{
+        position: relative;
+        bottom: 7em;
+    }
+
+    /* .all-text-big-box{
+        text-align: center;
+    } */
+}
